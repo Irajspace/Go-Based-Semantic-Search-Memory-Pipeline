@@ -6,23 +6,9 @@ Every LLM starts every conversation from zero. Stash gives your agent persistent
 
 Open source. Self-hosted. Works with any MCP-compatible agent.
 
----
 
-> **Don't want to self-host?**
-> **[usestash.io](https://usestash.io)** is the hosted cloud version — sign in with Google, copy one MCP URL, and you're done. Free to start.
 
----
 
-## Quick Start
-
-```bash
-git clone https://github.com/alash3al/stash.git
-cd stash
-cp .env.example .env   # edit with your API key + model
-docker compose up
-```
-
-That's it. Postgres + pgvector, migrations, MCP server with background consolidation — all in one command.
 
 **Next:** [Getting Started guide](docs/GETTING_STARTED.md) — connect your MCP client, run `init` / `remember` / `recall`, and verify everything works.
 
@@ -118,13 +104,6 @@ A 9-stage consolidation pipeline turns raw observations into structured knowledg
 
 ## Stash Cloud (Beta — Free)
 
-A hosted, multi-tenant version of Stash is available at **[usestash.io](https://usestash.io/)** and is currently free while in beta.
-
-The cloud version is written from scratch — it shares no code with this repository. It is designed from the ground up for scalability, multi-tenancy, and long-term sustainability as a product. Feature sets differ in both directions: some things available here aren't in the cloud, and vice versa.
-
-## Learn More
-
-**[alash3al.github.io/stash →](https://alash3al.github.io/stash/)**
 
 ## License
 
