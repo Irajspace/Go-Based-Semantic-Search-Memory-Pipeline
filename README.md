@@ -30,13 +30,7 @@ STASH_REASONER_MODEL=deepseek-ai/DeepSeek-V3-0324
 STASH_VECTOR_DIM=1536
 ```
 
-Atlas Cloud works well here because Stash only needs:
 
-- an embeddings model for vectorization
-- a chat-capable reasoning model for consolidation
-- an OpenAI-compatible base URL and API key
-
-See [Getting Started](docs/GETTING_STARTED.md) for a fuller configuration checklist.
 
 ## MCP Client Setup
 
